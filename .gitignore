@@ -1,0 +1,26 @@
+# Rojo build artifacts — the place file is generated from source,
+# it is not stored in git. Build it with: rojo build -o obby.rbxl
+*.rbxl
+*.rbxlx
+*.rbxm
+*.rbxmx
+
+# Rojo server log and sourcemap
+rojo.log
+*.sourcemap.json
+sourcemap.json
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*~
+
+# Luau / Selene / StyLua caches (if used locally)
+.selene_cache/
+.stylua_cache/

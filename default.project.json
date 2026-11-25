@@ -1,0 +1,42 @@
+{
+  "name": "Obby",
+  "tree": {
+    "$className": "DataModel",
+    "Workspace": {
+      "$className": "Workspace"
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "ObbyServer": {
+        "$path": "src/server"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "ObbyClient": {
+          "$path": "src/client"
+        }
+      }
+    },
+    "StarterGui": {
+      "$className": "StarterGui"
+    },
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "ObbyShared": {
+        "$path": "src/shared"
+      },
+      "ObbyRemotes": {
+        "$className": "Folder",
+        "PlayerFinished": {
+          "$className": "RemoteEvent"
+        },
+        "RestartRequested": {
+          "$className": "RemoteEvent"
+        }
+      }
+    }
+  }
+}
